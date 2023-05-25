@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator Keliling Persegi</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h3>Keliling Persegi</h3>
+    <div class="example-square"></div>
+    <h4 align="center"><b>Bujur Sangkar</b></h4>
+    <p>Rumus Keliling Persegi yaitu :</p>
+    <h5 align="center">K= 4 X S</h5>
+    <p>
+      Dimana : <br />
+      K = Keliling <br />S = Sisi
+    </p>
+    <hr />
+    <div class="container">
+      <h1>Kalkulator Keliling Persegi</h1>
+      <form>
+        <input
+          type="number"
+          id="sisi"
+          name="sisi"
+          placeholder="Nilai sisi"
+          required
+        />
+        <div id="hasil"></div>
+        <button type="submit">Hitung</button>
+        <button type="button" id="reset">Reset</button>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
